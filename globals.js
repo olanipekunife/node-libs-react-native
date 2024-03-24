@@ -1,4 +1,4 @@
-global.Buffer = require('buffer').Buffer;
+global.Buffer = require('buffer/').Buffer;
 global.process = require('process');
 
 // Needed so that 'stream-http' chooses the right default protocol.
